@@ -1,4 +1,4 @@
-from com.silpaservices.ml.algos import PredictSentiment as p
-
+from com.silpaservices.ml.algos.PredictSentiment import StockData
 if __name__ == '__main__':
-    p.test()
+    s = StockData('GOOGL')
+    s.test()
